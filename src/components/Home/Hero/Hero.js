@@ -14,7 +14,7 @@ const Hero = () => {
             <a className="cta-btn cta-btn--hero" href="#about">Know more</a>
           </p>
 
-          <a href="https://drive.google.com/uc?export=download&id=1ss1i0nibS5sMuo4V9OHXPQmYU75mY81M">Get In Touch</a>
+          <a href="https://drive.google.com/uc?export=download&id=1ss1i0nibS5sMuo4V9OHXPQmYU75mY81M"><button className="btn btn-primary">Get In Touch</button></a>
 
 
 
