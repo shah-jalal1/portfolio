@@ -1,28 +1,27 @@
 import React from 'react';
 import './Contact.css'
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
-    return (
-        <div >
-            {/* <div className="d-flex justify-content-center">
-            <form className="form">
-                <div className="form-group">
-                    <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
-                         </div>
-                    
-                    <div className="form-group">
-                        <label for="exampleFormControlTextarea1">Example textarea</label>
-                        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                </form>
-            </div> */}
+    const sendEmail = (e) => {
+        e.preventDefault();
 
+        emailjs.sendForm('service_cez88jp', 'template_cvotfn5', e.target, 'user_QTbCyiBBdkCtg65wdJscl')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+            e.target.reset();
+        // console.log("clicked");
+    }
+    return (
+        <div className="contact">
             <div className="container">
-                <form action="">
+                <form onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto">
                         <div className="col-8 form-group mx-auto">
-                            <input type="text" className="form-control" placeholder="name" name="name" />
+                            <input type="text" className="form-control" placeholder="name" name="from_name" />
                         </div>
                         <div className="col-8 form-group mx-auto">
                             <input type="email" className="form-control" placeholder="Email Address" name="email" />
@@ -31,12 +30,12 @@ const Contact = () => {
                             <textarea className="form-control" id="" cols="30" rows="10" placeholder="your Messeage" name="message"></textarea>
                         </div>
                         <div className="col-8 form-group mx-auto">
-                            <input type="submit" value="send message" className="btn btn-info"/>
+                            <input type="submit" value="send message" className="btn btn-info" />
                         </div>
                     </div>
                 </form>
             </div>
-            
+
         </div>
     );
 };
