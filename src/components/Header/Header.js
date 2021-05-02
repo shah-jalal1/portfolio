@@ -15,22 +15,22 @@ const Header = () => {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
                     <li className="nav-item active">
-                        <Link className="nav-link mr-5 text-white" to="/">Home</Link>
+                        <Link className="nav-link mr-3 text-white" to="/">Home</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link mr-5 text-white" to="/about">About</Link>
+                        <Link className="nav-link mr-3 text-white" to="/about">About</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link mr-5 text-white" to="/projects">projects</Link>
+                        <Link className="nav-link mr-3 text-white" to="/projects">projects</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link mr-5 text-white" to="/contact">Contact</Link>
+                        <Link className="nav-link mr-3 text-white" to="/contact">Contact</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link mr-5 text-white" to="/blogs">Blogs</Link>
+                        <Link className="nav-link mr-3 text-white" to="/blogs">Blogs</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link mr-5 text-white" to="contact">Contact</Link>
+                    <a href="https://drive.google.com/uc?export=download&id=1ss1i0nibS5sMuo4V9OHXPQmYU75mY81M"><button className="btn btn-success mr-3 nav-resume-button">Resume</button></a>
                     </li>
                 </ul>
 
