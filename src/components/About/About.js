@@ -20,9 +20,7 @@ const About = () => {
                 I have been in the field for nearly 2 years, and have been loving every minute of it. I am a blogger, entrepreneur,photographer, designer, developer, and overall thinker. Check out some of the links below to see what I’ve been up to lately.
               </p>
               <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="G:\CV\My cv">
-                  View Resume
-                </a>
+                    <a href="https://drive.google.com/uc?export=download&id=1ss1i0nibS5sMuo4V9OHXPQmYU75mY81M"><button            className="btn btn-primary">Resume</button></a>
               </span>
             </div>
           </div>
@@ -30,13 +28,7 @@ const About = () => {
           <div class="col-md-5 col-sm-12">
             <div class="about-wrapper__image">
                 <img className="img-fluid  profile-img" src={profile} alt=""/>
-              {/* <img
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="./assets/profile.jpg"
-                alt="Profile Image"
-              /> */}
+           
             </div>
           </div>
 
