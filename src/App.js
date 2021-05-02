@@ -8,6 +8,7 @@ import {
 import Home from './components/Home/home/Home';
 import Header from './components/Header/Header';
 import About from './components/About/About';
+import Porjects from './components/Projects/Porjects';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         </Route>
         <Route exact path="/about">
           <About></About>
+        </Route>
+        <Route exact path="/projects">
+          <Porjects></Porjects>
         </Route>
       </Switch>
     </Router>

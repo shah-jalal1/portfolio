@@ -14,7 +14,7 @@ const Hero = () => {
             I'm a software engineer based on exceptional websites,<br/> applications, and everything in between.
           </p>
 
-          <a href="https://drive.google.com/uc?export=download&id=1ss1i0nibS5sMuo4V9OHXPQmYU75mY81M"><button className="btn btn-primary">Resume</button></a>
+          <a href="https://drive.google.com/uc?export=download&id=1ss1i0nibS5sMuo4V9OHXPQmYU75mY81M"><button className="btn btn-success">Resume</button></a>
 
         </div>
       </div>

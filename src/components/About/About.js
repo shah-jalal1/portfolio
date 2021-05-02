@@ -14,13 +14,38 @@ const About = () => {
           <div class="col-md-7 col-sm-12 about-text">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                "This is Asaduzzaman Sajeeb and I am a full-stack Web Developer who specializes in creating dynamic and beautiful web sites.”
+                "This is Shah Jalal and I am a full-stack Web Developer who specializes in creating dynamic and beautiful web sites.”
               </p>
               <p class="about-wrapper__info-text">
-                I have been in the field for nearly 2 years, and have been loving every minute of it. I am a blogger, entrepreneur,photographer, designer, developer, and overall thinker. Check out some of the links below to see what I’ve been up to lately.
+              I am currently seeking a position in a dynamic organization to contribute for the growth of the company while having the scope to develop my own skills.
               </p>
-              <span class="d-flex mt-3">
-                    <a href="https://drive.google.com/uc?export=download&id=1ss1i0nibS5sMuo4V9OHXPQmYU75mY81M"><button            className="btn btn-primary">Resume</button></a>
+
+              <p>Here are a few technologies I've been working with recently:</p>
+                <div class="row">
+                    
+                    <div class="col-md-6">
+                         <ul>
+                             <li >JavaScript (ES6+)</li>
+                            <li >React.js</li>
+                             <li>Node.js</li>
+                            <li>MongoDB
+                            </li>
+                         </ul>
+                        </div>
+
+                    <div class="col-md-6">
+                         <ul>
+                             <li >Node.js</li>
+                            <li >Express.js</li>
+                            <li>MongoDB</li>
+                            <li>Firebase</li>
+                        </ul>
+                    </div>
+                </div>
+              
+
+              <span class="d-flex mt-4">
+                    <a href="https://drive.google.com/uc?export=download&id=1ss1i0nibS5sMuo4V9OHXPQmYU75mY81M"><button  className="btn btn-success">Resume</button></a>
               </span>
             </div>
           </div>

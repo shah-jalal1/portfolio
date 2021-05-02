@@ -1,0 +1,12 @@
+.projects {
+    background-color: #0A192F;
+}
+
+.card-image {
+    height: 200px;
+    width: 200px;
+}
+
+.card {
+    border-radius: 10px;
+}
