@@ -10,13 +10,11 @@ const Hero = () => {
             <br />
             Full-stack Web Developer.
           </h1>
-          <p className="hero-cta" className="load-hidden">
-            <a className="cta-btn cta-btn--hero" href="#about">Know more</a>
+          <p className="hero-cta">
+            I'm a software engineer based on exceptional websites,<br/> applications, and everything in between.
           </p>
 
-          <a href="https://drive.google.com/uc?export=download&id=1ss1i0nibS5sMuo4V9OHXPQmYU75mY81M"><button className="btn btn-primary">Get In Touch</button></a>
-
-
+          <a href="https://drive.google.com/uc?export=download&id=1ss1i0nibS5sMuo4V9OHXPQmYU75mY81M"><button className="btn btn-primary">Resume</button></a>
 
         </div>
       </div>

@@ -1,0 +1,20 @@
+.profile-img {
+    height: auto;
+    /* background-color: black; */
+    /* width: 300px; */
+}
+
+.about {
+    background-color: #0A192F;
+    color: #889293;
+    padding-bottom: 50px;
+}
+
+.section-title {
+    color: #CCD6F6;
+    /* margin-bottom: 40px; */
+}
+
+.about-text {
+    margin-top: 40px;
+}

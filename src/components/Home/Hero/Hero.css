@@ -1,8 +1,14 @@
 .jumbotron {
     background-color: #0A192F;
     border-radius: 0px;
+    
 }
 
 .hero-title {
     color: #CCD6F6;
+    font-size: 60px;
+}
+
+.hero-cta {
+    color: #889293;
 }

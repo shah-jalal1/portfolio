@@ -18,16 +18,16 @@ const Header = () => {
                         <Link className="nav-link mr-5 text-white" to="/">Home</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link mr-5 text-white" to="/About">About</Link>
+                        <Link className="nav-link mr-5 text-white" to="/about">About</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link mr-5 text-white" to="/Contact">Contact</Link>
+                        <Link className="nav-link mr-5 text-white" to="/contact">Contact</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link mr-5 text-white" to="/Blogs">Blogs</Link>
+                        <Link className="nav-link mr-5 text-white" to="/blogs">Blogs</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link mr-5 text-white" to="Contact">Contact</Link>
+                        <Link className="nav-link mr-5 text-white" to="contact">Contact</Link>
                     </li>
                 </ul>
 
