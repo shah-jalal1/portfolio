@@ -1,5 +1,6 @@
 import React from 'react';
 import About from '../../About/About';
+import Porjects from '../../Projects/Porjects';
 import Hero from '../Hero/Hero';
 import './home.css'
 
@@ -9,6 +10,7 @@ const Home = () => {
             <Hero></Hero>
             {/* <About></About> */}
             <About></About>
+            <Porjects></Porjects>
         </main>
     );
 };

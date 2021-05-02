@@ -8,6 +8,9 @@ const Porjects = () => {
     return (
         <div className="projects">
             <div className="container">
+                 <h2 className="section-title text-center mb-5">
+                    Projects
+                </h2>
                 <div className="card-group">
 
                     <div className="card p-1 m-3">
